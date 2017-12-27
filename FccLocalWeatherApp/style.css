@@ -1,0 +1,60 @@
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.box {
+    background-color: white;
+    color: black;
+    font-family: 'Aclonica', sans-serif;
+    font-weight: 600;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    opacity: 0.5;
+    text-align: center;
+}
+  
+h1 {
+    font-size: 30px;
+    padding: 5%;
+}
+  
+h3 {
+    font-size: 35px;
+}
+  
+p {
+    font-size: 30px;
+}
+  
+.btn {
+    background-color: black;
+    border: black;
+    color: white;
+    font-family: 'Aclonica', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+  
+button:active {
+    background-color: white;
+    border: white;
+    transform: translateY(4px);
+}
+  
+@media only screen and (max-width: 700px) {
+    body {
+        background-image: url("");
+        /* background-height: 100%;  */
+    }
+
+    .box {
+        margin-left: 10%;
+        margin-right: 10%;
+        opacity: 0.6;
+    }
+  }
