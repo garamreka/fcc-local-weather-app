@@ -31,15 +31,15 @@ $(document).ready(function(){
     
     function SetBackgroundImage(weatherId) {
         var backgroundImage;
-        var clearSky = "https://afremov.com/image.php?type=P&id=17848";
-        var clouds = "https://afremov.com/image.php?type=P&id=22370";
-        var rain = "https://afremov.com/image.php?type=P&id=20878";
-        var thunderStrom = "https://afremov.com/image.php?type=P&id=17753";
-        var snow = "https://afremov.com/image.php?type=P&id=18584";
-        var mist = "https://afremov.com/image.php?type=P&id=21858";
-        var drizzle = "https://afremov.com/image.php?type=P&id=18367";
-        var extreme = "https://afremov.com/image.php?type=P&id=21446";
-        var breeze = "https://afremov.com/image.php?type=P&id=22841";
+        var clearSky = "https://afremov.com/images/product/image_173.jpeg";
+        var clouds = "https://afremov.com/images/product/image_2784.jpeg";
+        var rain = "https://afremov.com/images/product/RAINS_RUSTLE_3_1.jpg";
+        var thunderStrom = "https://afremov.com/images/product/image_79.jpeg";
+        var snow = "https://afremov.com/images/product/image_1080.jpeg";
+        var mist = "https://afremov.com/images/product/FOGGY-MORNING.jpg";
+        var drizzle = "https://afremov.com/images/product/image_684.jpeg";
+        var extreme = "https://afremov.com/images/product/image_1436.jpeg";
+        var breeze = "https://afremov.com/images/product/image_1184.jpeg";
     
         if (weatherId >= 801 && weatherId <= 804) {
             backgroundImage = clouds;
